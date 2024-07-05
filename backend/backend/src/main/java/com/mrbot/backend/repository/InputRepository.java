@@ -7,10 +7,12 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
+import java.util.Optional;
+
 @Repository
 public interface InputRepository extends JpaRepository<Input, Long> {
 
-    Input findByContent(String content);
+    Optional<Input> findByContent(String content);
 
     @Query("SELECT i.responses FROM Input i WHERE i.content = :content")
     Response findResponsesByInputContent(@Param("content") String content);

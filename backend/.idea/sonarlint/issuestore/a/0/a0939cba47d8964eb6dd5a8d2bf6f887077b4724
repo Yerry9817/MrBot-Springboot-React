@@ -1,9 +1,11 @@
 
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ô¼Œˆ2
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ô¼Œˆ2
-Q
-java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8’Ô¼Œˆ2
-L
-java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8“Ô¼Œˆ2
+ˆ	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(æ­†8¬ş® ˆ2J$a7e25509-e56d-4845-babd-3ceb34e708de
+	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(ºÊü ûÿÿÿÿ8¬ş® ˆ2J$9a55db7c-c955-4481-9e9f-652a276795c0
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¬ş® ˆ2J$021afb70-44a5-437f-83ac-20c28ba73a0b
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¬ş® ˆ2J$6413d9c2-7dc5-403b-8d97-797535afc8e2
+
+java:S1128"<Remove this unused import 'com.mrbot.backend.DTO.AssignDTO'.(ã„‰8”¾¡ˆ2J$d5b14689-132a-4d95-b5f4-2115183e98ce
+‡
+java:S1128"DRemove this unused import 'java.util.DuplicateFormatFlagsException'.(´‘óÙ8”¾¡ˆ2J$53715d83-9e98-404e-b1ec-606781880c53

@@ -1,14 +1,13 @@
 package com.mrbot.backend.service;
 
-import com.mrbot.backend.entity.Input;
+import com.mrbot.backend.DTO.ResponsesDTO;
 import com.mrbot.backend.entity.Response;
 import com.mrbot.backend.repository.InputRepository;
 import com.mrbot.backend.repository.ResponseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 @Service
 public class ResponseService {
@@ -26,9 +25,16 @@ public class ResponseService {
         return responseRepository.findAll();
     }
 
-    public Response findByContent(String content) { return responseRepository.findByContent(content);}
+    public Optional<Response> findByContent(String content) { return responseRepository.findByContent(content);}
 
-    public Response save(Response response) {
-        return responseRepository.save(response);
+    public Response save(ResponsesDTO responseDTO) throws Exception {
+        Optional<Response> responseExist = findByContent(responseDTO.getResponseContent());
+        if(responseExist.isEmpty()){
+            Response newResponse = new Response();
+            newResponse.setContent(responseDTO.getResponseContent());
+            return responseRepository.save(newResponse);
+        }else{
+            throw new Exception("This response already exists");
+        }
     }
 }

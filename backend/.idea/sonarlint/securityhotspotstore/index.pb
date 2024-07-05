@@ -5,8 +5,6 @@ i
 9backend/src/main/java/com/mrbot/backend/entity/Input.java,6\c\6c2a23ffad8042349142bf04a4ecbc26ccf40080
 ?
 backend/pom.xml,f\9\f9590cd73598b6f2427c8b1327d922c50d1dc504
-k
-;backend/src/main/java/com/mrbot/backend/entity/Reponse.java,3\8\38fb0bb7bdca3eb89179022133f8ed9a6eaee4df
 l
 <backend/src/main/java/com/mrbot/backend/entity/Response.java,4\1\4114ddaa53ddd3837999fd9cc89f21795d39c9d3
 o
@@ -27,3 +25,17 @@ i
 9backend/src/main/java/com/mrbot/backend/DTO/InputDTO.java,4\c\4cc087b390c552b890b642c0f8179f8465132206
 m
 =backend/src/main/java/com/mrbot/backend/DTO/ResponsesDTO.java,a\1\a1fecfb3f40d2207aef6b8efcbb52aaea6d550e8
+j
+:backend/src/main/java/com/mrbot/backend/DTO/AssignDTO.java,0\1\01903e2b85d5c30772f6fc746403652b524cf1d6
+q
+Abackend/src/main/java/com/mrbot/backend/service/AsignService.java,8\9\89ccac5b0838ab8bca4367e754fff0ee7faced48
+x
+Hbackend/src/main/java/com/mrbot/backend/controller/AssignController.java,4\e\4ec936748be2e5e3ada894a80e66470ea9b9f8ab
+r
+Bbackend/src/main/java/com/mrbot/backend/service/AssignService.java,3\b\3b8b0b5615a2dc3c60e1a35c652420d2afba4300
+p
+@backend/src/main/java/com/mrbot/backend/service/ChatService.java,1\a\1a2fe329385c58e309a6b6c0b821ece21239c9b7
+h
+8backend/src/main/java/com/mrbot/backend/DTO/ChatDTO.java,8\1\819222d8f86824fa529943f709fd290e1a506229
+v
+Fbackend/src/main/java/com/mrbot/backend/controller/ChatController.java,9\2\92d3a9454817a5a69b6ea699c0643f8d151d171c

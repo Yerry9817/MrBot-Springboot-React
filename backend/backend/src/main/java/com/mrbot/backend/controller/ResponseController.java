@@ -19,8 +19,6 @@ import java.util.Optional;
 public class ResponseController {
     @Autowired
     private ResponseService responseService;
-    @Autowired
-    private InputService inputService;
 
     @GetMapping
     public ResponseEntity<List<Response>> getResponses() {
@@ -30,33 +28,11 @@ public class ResponseController {
 
     @PostMapping("/add")
     public ResponseEntity<String> addResponse(@RequestBody ResponsesDTO responseDTO) {
-        Response response = new Response();
-
-        String responseContent = responseDTO.getResponseContent();
-        String inputContent = responseDTO.getInputContent();
-
-        Response responseAlreadyExist = responseService.findByContent(responseContent);
-
-        if(responseAlreadyExist!=null){
-            response = responseAlreadyExist;
+        try{
+            responseService.save(responseDTO);
+            return ResponseEntity.status(HttpStatus.OK).body("Response created successfully");
+        }catch (Exception e){
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
         }
-        response.setContent(responseContent);
-
-        if(inputContent!=null){
-            //find input by content
-            Input input = inputService.findByContent(inputContent);
-            if(input!=null){
-                if(!response.getInputs().contains(input)){
-                    response.getInputs().add(input);
-                }
-            }else{
-                input.setContent(inputContent);
-                Input newInput = inputService.save(input);
-                response.getInputs().add(newInput);
-            }
-        }
-
-        responseService.save(response);
-        return ResponseEntity.status(HttpStatus.OK).body("Response created successfully");
     }
 }

@@ -1,9 +1,7 @@
 
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ëã·Œˆ2J$0553bf12-adac-4260-89f7-5b4ad230e466
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ìã·Œˆ2J$87a90c5f-3b99-4ed3-9fe7-9ff8f8ef0a72
-]
-java:S1128";Remove this unused import 'com.mrbot.backend.entity.Input'.(Şóàøÿÿÿÿ8ĞÕºŒˆ2
-Q
-java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8ĞÕºŒˆ2
+g	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(Ç¿ĞÈøÿÿÿÿ8ßÉ½£ˆ2
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(áƒ§8àÉ½£ˆ2
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8àÉ½£ˆ2
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8àÉ½£ˆ2

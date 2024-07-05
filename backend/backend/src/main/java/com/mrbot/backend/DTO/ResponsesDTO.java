@@ -5,5 +5,4 @@ import lombok.Data;
 @Data
 public class ResponsesDTO {
     private String responseContent;
-    private String inputContent;
 }
