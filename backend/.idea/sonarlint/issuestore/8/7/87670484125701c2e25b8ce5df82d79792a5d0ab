@@ -1,0 +1,9 @@
+
+…
+java:S22595"CA "NullPointerException" could be thrown; "input" is nullable here.(Ù¹Ï8‚ý´‹ˆ2J$a431d662-9b4c-4774-bc57-11e043a3b766
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8úÓþŠˆ2J$132689b4-8134-4748-8e99-6aed2e25676e
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8úÓþŠˆ2J$3e7912a8-b435-42ae-912b-9f9c4f08c577
+w
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëÝüÿÿÿÿ8¬Ü¡‹ˆ2J$900c9423-ff90-40b6-a7f3-ad9c48cfb868
