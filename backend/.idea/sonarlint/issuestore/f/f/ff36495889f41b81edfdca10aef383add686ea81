@@ -1,13 +1,0 @@
-
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8à²Äžˆ2J$74d3b144-5f23-4787-9cdf-f024b5c7d2b0
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8à²Äžˆ2J$ad724c91-391d-41f6-8297-46dc6b3a0918
-
-java:S1128">Remove this unused import 'com.mrbot.backend.entity.Response'.(ÛŒ¿á8Å¿ù¢ˆ2J$5b063402-c08d-427b-bacb-577739d622f0
-p
-java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8±¶Á¡ˆ2J$c349fa36-3345-43b9-a9e8-7a321353d3aa
-w
-java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëÝüÿÿÿÿ8Å¿ù¢ˆ2J$4c4fdaad-0770-4e35-b2b4-a462c517edba
-r
-java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤þÿÿÿÿ8±¶Á¡ˆ2J$977e942a-ea59-4cc9-9ac2-a3daba04af5f

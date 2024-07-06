@@ -27,8 +27,6 @@ m
 =backend/src/main/java/com/mrbot/backend/DTO/ResponsesDTO.java,a\1\a1fecfb3f40d2207aef6b8efcbb52aaea6d550e8
 j
 :backend/src/main/java/com/mrbot/backend/DTO/AssignDTO.java,0\1\01903e2b85d5c30772f6fc746403652b524cf1d6
-q
-Abackend/src/main/java/com/mrbot/backend/service/AsignService.java,8\9\89ccac5b0838ab8bca4367e754fff0ee7faced48
 x
 Hbackend/src/main/java/com/mrbot/backend/controller/AssignController.java,4\e\4ec936748be2e5e3ada894a80e66470ea9b9f8ab
 r
@@ -39,3 +37,5 @@ h
 8backend/src/main/java/com/mrbot/backend/DTO/ChatDTO.java,8\1\819222d8f86824fa529943f709fd290e1a506229
 v
 Fbackend/src/main/java/com/mrbot/backend/controller/ChatController.java,9\2\92d3a9454817a5a69b6ea699c0643f8d151d171c
+n
+>backend/src/main/java/com/mrbot/backend/config/CorsConfig.java,2\9\29b6cae7344ed9f42e68d59c409614374f4c4790

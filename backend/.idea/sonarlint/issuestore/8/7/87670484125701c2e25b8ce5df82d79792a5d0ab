@@ -1,9 +1,0 @@
-
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8úÓşŠˆ2J$bdb1ace0-5721-4153-bade-f7c464946fb2
-ƒ
-java:S1128";Remove this unused import 'com.mrbot.backend.entity.Input'.(Şóàøÿÿÿÿ8×•ç¢ˆ2J$2789e57d-3137-43d3-95c7-95b22a90b159
-†
-java:S1128"CRemove this unused import 'com.mrbot.backend.service.InputService'.(Ÿ§í8»æç¢ˆ2J$5120de67-e539-495f-a41c-7417fe97a492
-w
-java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8×•ç¢ˆ2J$b91a7256-b313-4666-9b55-ff0c2c904081
