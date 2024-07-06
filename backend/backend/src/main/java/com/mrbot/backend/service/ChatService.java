@@ -24,6 +24,7 @@ public class ChatService {
             Optional<Input> InputExists = inputService.findByContent(message);
             if(InputExists.isPresent()){
                 Response response = inputService.findResponsesByInputContent(message);
+                System.out.println(response);
                 return ResponseEntity.ok(response.getContent());
             }
         }
