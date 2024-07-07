@@ -22,10 +22,10 @@ public class AssignService {
         Optional<Response> response = responseRepository.findByContent(data.getResponse());
 
         if (input.isEmpty()) {
-            throw new Exception("The input does not exist");
+            throw new Exception("La entrada no existe");
         }
         if (response.isEmpty()) {
-            throw new Exception("The response does not exist");
+            throw new Exception("La respuesta no existe");
         }
 
         if (!input.get().getResponses().contains(response.get())) {

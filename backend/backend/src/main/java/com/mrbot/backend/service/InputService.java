@@ -37,7 +37,7 @@ public class InputService {
                 newInput.setContent(inputDTO.getInputContent());
                 return inputRepository.save(newInput);
             }else{
-                throw new Exception("This input already exists");
+                throw new Exception("Esta entrada ya existe");
             }
     }
 }

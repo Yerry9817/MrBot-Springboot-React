@@ -32,7 +32,7 @@ public class InputController {
     public ResponseEntity<String> addInput(@RequestBody InputDTO inputDTO){
         try{
             inputService.save(inputDTO);
-            return ResponseEntity.status(HttpStatus.OK).body("Input created successfully");
+            return ResponseEntity.status(HttpStatus.OK).body("Entrada creada con exito");
         }catch (Exception e){
             return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
         }

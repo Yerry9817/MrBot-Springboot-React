@@ -30,7 +30,7 @@ public class ResponseController {
     public ResponseEntity<String> addResponse(@RequestBody ResponsesDTO responseDTO) {
         try{
             responseService.save(responseDTO);
-            return ResponseEntity.status(HttpStatus.OK).body("Response created successfully");
+            return ResponseEntity.status(HttpStatus.OK).body("Respues creada con exito");
         }catch (Exception e){
             return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
         }

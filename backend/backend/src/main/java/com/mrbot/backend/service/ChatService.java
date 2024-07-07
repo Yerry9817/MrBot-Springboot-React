@@ -28,6 +28,6 @@ public class ChatService {
                 return ResponseEntity.ok(response.getContent());
             }
         }
-        throw new Exception("Sorry, i didnt understand your question");
+        throw new Exception("Lo lamento, no puedo responder tu pregunta");
     }
 }
