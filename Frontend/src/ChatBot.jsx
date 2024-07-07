@@ -27,11 +27,11 @@ const ChatBot = () => {
         console.log(err)
       }
     }
+    
   return (
     <div className="h-screen flex flex-col bg-gray-100 md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto">
         <ChatContainer conversation={conversation} isLoading={isLoading}/>
         <ChatForm handleSubmit={handleSubmit}/>
-
     </div>
   )
 }
